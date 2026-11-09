@@ -1,0 +1,41 @@
+name: "📋 Task / Action Item"
+description: General chapter task, workshop logistics, or development milestone.
+title: "[TASK]: <task title>"
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to track organizational action items, event tasks, and technical deliverables.
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description
+      description: What needs to be done?
+      placeholder: E.g., Prepare notebook for Session 2 on PyTorch autograd and backpropagation.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist / Sub-tasks
+      description: Break down this task into specific checkable milestones.
+      options:
+        - label: Draft outline and code examples
+        - label: Review with Curriculum Coordinator / Tech Core
+        - label: Push notebook to curriculum repo
+    validations:
+      required: false
+  - type: dropdown
+    id: team-responsible
+    attributes:
+      label: Responsible Committee / Group
+      description: Which team owns this task?
+      options:
+        - Technical Core
+        - Curriculum & Content
+        - Operations & Logistics
+        - Marketing & PR
+        - Executive Board
+    validations:
+      required: true

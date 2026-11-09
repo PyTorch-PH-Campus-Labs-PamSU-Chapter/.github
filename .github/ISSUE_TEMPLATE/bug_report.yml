@@ -1,0 +1,60 @@
+name: "🐛 Bug Report"
+description: File an issue to help us fix errors or broken scripts.
+title: "[BUG]: <short description>"
+labels: ["bug", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please fill out the form below as clearly as possible.
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: What happened?
+      description: Provide a clear and concise description of the bug.
+      placeholder: E.g., The training script crashes when loading the CIFAR-10 dataset...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we replicate this issue?
+      placeholder: |
+        1. Run `python train.py`
+        2. Set batch size to 32
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+      placeholder: E.g., The training loop should start and display epoch loss progress.
+    validations:
+      required: true
+  - type: textarea
+    id: logs-screenshots
+    attributes:
+      label: Terminal Output / Error Logs / Screenshots
+      description: Paste any error traceback, terminal messages, or drag-and-drop screenshots here.
+      placeholder: |
+        ```text
+        Paste traceback or terminal logs here
+        ```
+    validations:
+      required: false
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment / OS
+      description: What operating environment are you running this on?
+      options:
+        - Linux (Ubuntu / Mint / Debian)
+        - Windows
+        - macOS
+        - Google Colab / Kaggle
+        - Other
+    validations:
+      required: true
