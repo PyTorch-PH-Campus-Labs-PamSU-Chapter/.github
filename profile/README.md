@@ -91,7 +91,7 @@ Explore our primary learning resources and community tools:
 ## 🤝 Getting Involved & Contributing
 
 All student developers and enthusiasts are welcome to participate:
-1. Review our [Code of Conduct](https://github.com/.github/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/.github/blob/main/CONTRIBUTING.md).
+1. Review our [Code of Conduct](https://github.com/PyTorch-PH-Campus-Labs-PamSU-Chapter/.github/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/PyTorch-PH-Campus-Labs-PamSU-Chapter/.github/blob/main/CONTRIBUTING.md).
 2. Check open issues using our structured **Bug Report**, **Feature Request**, or **Task** templates.
 3. Submit a Pull Request following our standard branch guidelines (`feat/`, `fix/`, `curriculum/`, `docs/`).
 
