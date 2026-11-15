@@ -11,15 +11,24 @@ By participating in this organization, you agree to abide by our [Code of Conduc
 
 ## 🚀 Getting Started
 
-### 1. Find or Open an Issue
-* Before writing code, look through the repository's open **Issues**.
-* If you have an idea or found a bug, submit an issue using our interactive forms:
-  * 🐛 **Bug Report** — For broken code, library incompatibilities, or runtime errors.
-  * 💡 **Feature Request** — For new models, starter kits, or tutorial topics.
-  * 📋 **Task** — For chapter logistics or curriculum milestones.
-* Wait for an assignment or thumbs-up from the **Technical Core** (`@PyTorch-PH-Campus-Labs-PamSU-Chapter/technical-core `) before starting substantial work.
+### 1. Repository Access & Permissions
 
-### 2. Forking and Branching
+* **Public Repositories:** You do **not** need special repository permissions to start contributing—you can fork any public repository and submit a Pull Request right away.
+* **Need Elevated or Project-Specific Access?** Per our least-privilege security policy, repository-specific permissions (`Read`, `Triage`, `Write`, `Maintain`, or `Admin`) are granted per repository based on active project needs.
+  * Submit the **[GitHub Repository Permission Request Form](https://forms.gle/H1aUDvdrCaxCjVZa7)** to request access.
+  * Requests are reviewed by the **Technical Lead** (with final approval from the **Director** for high-risk permissions or private repository exceptions).
+
+### 2. Find or Open an Issue
+
+- Before writing code, look through the repository's open **Issues**.
+- If you have an idea or found a bug, submit an issue using our interactive forms:
+  - 🐛 **Bug Report** — For broken code, library incompatibilities, or runtime errors.
+  - 💡 **Feature Request** — For new models, starter kits, or tutorial topics.
+  - 📋 **Task** — For chapter logistics or curriculum milestones.
+- Wait for an assignment or thumbs-up from the **Technical Core** (`@PyTorch-PH-Campus-Labs-PamSU-Chapter/technical-core`) before starting substantial work.
+
+### 3. Forking and Branching
+
 1. Fork the target repository to your personal GitHub account.
 2. Clone your fork locally:
    ```bash
@@ -37,6 +46,7 @@ By participating in this organization, you agree to abide by our [Code of Conduc
 ## 🛠️ Development & Coding Standards
 
 ### Python & PyTorch Best Practices
+
 * **Reproducibility:** When training models, always set random seeds where possible (e.g., `torch.manual_seed(42)`).
 * **Device Agnostic Code:** Write PyTorch scripts that run cleanly on CUDA, Apple Silicon (MPS), or CPU:
   ```python
@@ -71,4 +81,5 @@ By participating in this organization, you agree to abide by our [Code of Conduc
 ---
 
 ## 💡 Need Help?
-Have questions about setting up your environment or understanding a PyTorch script? Open a Discussion in the repo or reach out to the **Technical Lead** and **Curriculum Coordinator**.
+
+Have questions about setting up your environment, requesting access, or understanding a PyTorch script? Open an Organization Discussion or reach out to the **Technical Lead** and **Curriculum Coordinator**.
